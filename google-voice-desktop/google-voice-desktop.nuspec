@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>google-voice-desktop</id>
+    <version>1.1.8</version>
+    <title>Google Voice Desktop (Install)</title>
+    <owners>Super Space Hero</owners>
+    <authors>Jerrod Lankford</authors>
+    <projectUrl>https://github.com/jerrod-lankford/google-voice-desktop-app</projectUrl>
+    <projectSourceUrl>https://github.com/jerrod-lankford/google-voice-desktop-app</projectSourceUrl>
+    <iconUrl>https://ghcdn.rawgit.org/jerrod-lankford/google-voice-desktop-app/master/images/1024px-Google_Voice_icon_(2020).png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+## Why
+I'm annoyed at the lack of desktop app for voice, like hangouts had.
+
+## What does it do
+It just lets you keep voice open without a chrome browser. It will also check the dom for notifications and display a badge in the task bar and closing the app will send it to a tray instead of closing.
+
+## Support
+Currently supports both OSX, Windows 10 and Ubuntu
+
+Questions? Ideas? Join us in discord https://discord.gg/3SSS6vkKET
+
+## Themes
+New in 1.1 we now have different themes! You can change your theme by clicking on the customize menu on the left side of the page
+
+![Customize](/screenshots/customize.png?raw=true)
+
+Not only themes but also a system for themeing! If you want to create your own theme and contribute back to the project you can do that [here](THEMES.md)
+
+## Run From Source
+`git clone git@github.com:Jerrkawz/google-voice-desktop-app.git`
+
+`npm install`
+
+`npm start`
+
+To build yourself you can run
+`npm run build:windows` or `npm run build:mac` or `npm run build:linux`
+
+## Screenshots
+![Windows](https://ghcdn.rawgit.org/jerrod-lankford/google-voice-desktop-app/master/screenshots/windows.png)
+
+Dracula Theme:
+![Dracula](https://ghcdn.rawgit.org/jerrod-lankford/google-voice-desktop-app/master/screenshots/dracula.png)
+
+Solar Theme:
+![Solar](https://ghcdn.rawgit.org/jerrod-lankford/google-voice-desktop-app/master/screenshots/solar.png)
+
+Minty Theme:
+![Minty](https://ghcdn.rawgit.org/jerrod-lankford/google-voice-desktop-app/master/screenshots/minty.png)
+
+Cerulean Theme:
+![Cerulean](https://ghcdn.rawgit.org/jerrod-lankford/google-voice-desktop-app/master/screenshots/cerulean.png)
+
+## Attributions
+Customize Icon made by [https://www.flaticon.com/authors/dmitri13](dmitri13) from [https://www.flaticon.com/](www.flaticon.com)
+
+Dracula https://github.com/dracula/dracula-theme
+
+Solar / Minty / Cerulean https://bootswatch.com
+    </description>
+    <summary>An Electron shell wrapper around the Google Voice website</summary>
+    <releaseNotes>https://github.com/jerrod-lankford/google-voice-desktop-app/releases/tag/1.1.8</releaseNotes>
+    <tags>google voice desktop</tags>
+    <packageSourceUrl>https://github.com/chocolatey/chocolatey-coreteampackages/tree/master/automatic/librecad</packageSourceUrl>
+    <dependencies>
+      <dependency id="chocolatey-core.extension" version="1.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

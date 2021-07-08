@@ -1,9 +1,9 @@
 $ErrorActionPreference = 'Stop';
 
-$packageName = 'librecad'
+$packageName = 'google-voice-desktop'
 
 $uninstalled = $false
-[array]$key = Get-UninstallRegistryKey -SoftwareName 'LibreCAD'
+[array]$key = Get-UninstallRegistryKey -SoftwareName 'Google Voice Desktop'
 
 if ($key.Count -eq 1) {
   $key | % {
