@@ -26,19 +26,9 @@ Questions? Ideas? Join us in discord https://discord.gg/3SSS6vkKET
 ## Themes
 New in 1.1 we now have different themes! You can change your theme by clicking on the customize menu on the left side of the page
 
-![Customize](/screenshots/customize.png?raw=true)
+![Customize](https://ghcdn.rawgit.org/jerrod-lankford/google-voice-desktop-app/master/screenshots/customize.png?raw=true)
 
-Not only themes but also a system for themeing! If you want to create your own theme and contribute back to the project you can do that [here](THEMES.md)
-
-## Run From Source
-`git clone git@github.com:Jerrkawz/google-voice-desktop-app.git`
-
-`npm install`
-
-`npm start`
-
-To build yourself you can run
-`npm run build:windows` or `npm run build:mac` or `npm run build:linux`
+Not only themes but also a system for themeing! If you want to create your own theme and contribute back to the project you can do that [here](https://github.com/jerrod-lankford/google-voice-desktop-app/blob/master/THEMES.md)
 
 ## Screenshots
 ![Windows](https://ghcdn.rawgit.org/jerrod-lankford/google-voice-desktop-app/master/screenshots/windows.png)
@@ -56,7 +46,7 @@ Cerulean Theme:
 ![Cerulean](https://ghcdn.rawgit.org/jerrod-lankford/google-voice-desktop-app/master/screenshots/cerulean.png)
 
 ## Attributions
-Customize Icon made by [https://www.flaticon.com/authors/dmitri13](dmitri13) from [https://www.flaticon.com/](www.flaticon.com)
+Customize Icon made by [dmitri13](https://www.flaticon.com/authors/dmitri13) from [www.flaticon.com](https://www.flaticon.com)
 
 Dracula https://github.com/dracula/dracula-theme
 
@@ -65,7 +55,7 @@ Solar / Minty / Cerulean https://bootswatch.com
     <summary>An Electron shell wrapper around the Google Voice website</summary>
     <releaseNotes>https://github.com/jerrod-lankford/google-voice-desktop-app/releases/tag/1.1.8</releaseNotes>
     <tags>google voice desktop</tags>
-    <packageSourceUrl>https://github.com/chocolatey/chocolatey-coreteampackages/tree/master/automatic/librecad</packageSourceUrl>
+    <packageSourceUrl>https://github.com/superspacehero/au-packages/tree/master/google-voice-desktop</packageSourceUrl>
     <dependencies>
       <dependency id="chocolatey-core.extension" version="1.0" />
     </dependencies>
