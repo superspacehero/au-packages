@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>ember-media-manager</id>
+    <version>1.11.0</version>
+    <title>Ember Media Manager (Portable)</title>
+    <owners>Super Space Hero</owners>
+    <authors>Dan Cooper</authors>
+    <projectUrl>https://github.com/DanCooper/Ember-MM-Newscraper</projectUrl>
+    <iconUrl>https://ghcdn.rawgit.org/superspacehero/au-packages/master/ember-media-manager/icon.png</iconUrl>
+	<bugTrackerUrl>http://bugs.embermediamanager.org</bugTrackerUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+New Ember Media Manager - The all in one media manager for Kodi and other media centers
+    </description>
+    <summary>The all in one media manager for Kodi and other media centers</summary>
+    <releaseNotes>https://github.com/DanCooper/Ember-MM-Newscraper/releases/tag/1.11.0</releaseNotes>
+    <tags>ember media manager kodi xbmc</tags>
+    <packageSourceUrl>https://github.com/superspacehero/au-packages/tree/master/ember-media-manager</packageSourceUrl>
+    <dependencies>
+		<dependency id="chocolatey-core.extension" version="1.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
