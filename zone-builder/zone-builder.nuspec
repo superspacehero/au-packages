@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+	<metadata>
+		<id>zone-builder</id>
+		<version>2.12</version>
+		<title>Zone Builder (Install)</title>
+		<owners>Super Space Hero</owners>​
+		<authors>sphere</authors>
+		<projectUrl>https://mb.srb2.org/addons/zone-builder.149/</projectUrl>
+		<projectSourceUrl>https://git.do.srb2.org/STJr/ZoneBuilder/</projectSourceUrl>
+		<iconUrl>https://ghcdn.rawgit.org/superspacehero/au-packages/master/zone-builder/icon.png</iconUrl>
+		<wikiUrl>http://wiki.srb2.org/</wikiUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>​
+		<description>
+**Zone Builder** is a map editor designed specifically for Sonic Robo Blast 2. It's based on GZDoom Builder, itself a comprehensive update of [Doom Builder 2](http://www.doombuilder.com/).
+
+## Using Zone Builder
+After installing, you need to point Zone Builder to SRB2's IWAD and executable. Go to Tools -> Game Configurations in the menu bar and select "Sonic Robo Blast 2 - 2.2". In the Resources tab, click "Add resource...", go to the "From PK3/PK7" tab in the window that pops up, then click the folder symbol to select the IWAD. Navigate to your SRB2 folder and select "srb2.pk3". Then, in the Testing tab, select "srb2win.exe" as your application. After that, you're good to go!
+
+If you have trouble mapping with this editor, you can check out SeventhSentinel's tutorial videos:
+
+### [Zone Builder Tutorial Videos](https://mb.srb2.org/addons/zone-builder-tutorial-videos.2439/)
+
+Alternatively, you can have a look at the [Zone Builder tutorial](http://wiki.srb2.org/wiki/Zone_Builder_tutorial) on the Wiki. If you have any further questions, feel free to ask on Discord or in the Discussion thread. Happy mapping!
+
+## Screenshots
+
+![Screenshot 1](https://mb.srb2.org/attachments/zb1-png.38377/)
+
+![Screenshot 2](https://mb.srb2.org/attachments/zb2-png.38378/)
+
+![Screenshot 3](https://mb.srb2.org/attachments/zb3-png.38379/)
+
+![Screenshot 4](https://mb.srb2.org/attachments/zb4-png.38380/)
+
+![Screenshot 5](https://mb.srb2.org/attachments/zb5-png.40269/)
+
+## Contributors
+- [MascaraSnake](https://mb.srb2.org/members/mascarasnake.2876/)
+- [toaster](https://mb.srb2.org/members/toaster.615/)
+- [sphere](https://mb.srb2.org/members/sphere.2927/)
+- [Justburner](https://mb.srb2.org/members/justburner.7509/)
+		</description>
+		<summary>A map builder for Sonic Robo Blast 2</summary>
+		<releaseNotes>https://mb.srb2.org/addons/zone-builder.149/updates/</releaseNotes>
+		<tags>zone builder sonic robo blast</tags>
+		<packageSourceUrl>https://github.com/superspacehero/au-packages/tree/master/zone-builder/</packageSourceUrl>
+		<dependencies>
+			<dependency id="chocolatey-core.extension" version="1.0" />
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="tools\**" target="tools" />
+	</files>
+</package>

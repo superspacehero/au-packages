@@ -56,7 +56,7 @@ Solar / Minty / Cerulean https://bootswatch.com
     <tags>google voice desktop</tags>
     <packageSourceUrl>https://github.com/superspacehero/au-packages/tree/master/google-voice-desktop</packageSourceUrl>
     <dependencies>
-      <dependency id="chocolatey-core.extension" version="1.0" />
+		<dependency id="chocolatey-core.extension" version="1.0" />
     </dependencies>
   </metadata>
   <files>
