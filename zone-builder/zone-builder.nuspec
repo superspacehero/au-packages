@@ -1,17 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
 	<metadata>
 		<id>zone-builder</id>
 		<version>2.12.0</version>
 		<title>Zone Builder (Install)</title>
-		<owners>Super Space Hero</owners>​
+		<owners>Super Space Hero</owners>
 		<authors>sphere</authors>
-		<projectUrl>https://mb.srb2.org/addons/zone-builder.149/</projectUrl>
-		<projectSourceUrl>https://git.do.srb2.org/STJr/ZoneBuilder/</projectSourceUrl>
+		<projectUrl>https://mb.srb2.org/addons/zone-builder.149</projectUrl>
+		<projectSourceUrl>https://git.do.srb2.org/STJr/ZoneBuilder</projectSourceUrl>
 		<iconUrl>https://ghcdn.rawgit.org/superspacehero/au-packages/master/zone-builder/icon.png</iconUrl>
-		<wikiUrl>http://wiki.srb2.org/</wikiUrl>
-		<requireLicenseAcceptance>false</requireLicenseAcceptance>​
+		<bugTrackerUrl>https://git.do.srb2.org/STJr/ZoneBuilder/issues</bugTrackerUrl>
+		<wikiUrl>http://wiki.srb2.org</wikiUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<description>
 **Zone Builder** is a map editor designed specifically for Sonic Robo Blast 2. It's based on GZDoom Builder, itself a comprehensive update of [Doom Builder 2](http://www.doombuilder.com/).
 
@@ -43,14 +44,14 @@ Alternatively, you can have a look at the [Zone Builder tutorial](http://wiki.sr
 - [Justburner](https://mb.srb2.org/members/justburner.7509/)
 		</description>
 		<summary>A map builder for Sonic Robo Blast 2</summary>
-		<releaseNotes>https://mb.srb2.org/addons/zone-builder.149/updates/</releaseNotes>
+		<releaseNotes>https://mb.srb2.org/addons/zone-builder.149/updates</releaseNotes>
 		<tags>zone builder sonic robo blast</tags>
-		<packageSourceUrl>https://github.com/superspacehero/au-packages/tree/master/zone-builder/</packageSourceUrl>
+		<packageSourceUrl>https://github.com/superspacehero/au-packages/tree/master/zone-builder</packageSourceUrl>
 		<dependencies>
 			<dependency id="chocolatey-core.extension" version="1.0" />
 		</dependencies>
 	</metadata>
-	<files>
-		<file src="tools\**" target="tools" />
-	</files>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
 </package>

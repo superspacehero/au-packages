@@ -10,7 +10,7 @@ if ($key.Count -eq 1) {
     $packageArgs = @{
       packageName    = $packageName
       fileType       = 'EXE'
-      silentArgs     = '/S'
+      silentArgs     = '/silent'
       validExitCodes = @(0)
       file           = "$($_.UninstallString.Trim('"'))"
     }

@@ -3,12 +3,12 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>google-voice-desktop</id>
-    <version>1.1.8.20210712</version>
+    <version>1.2.5</version>
     <title>Google Voice Desktop (Install)</title>
     <owners>Super Space Hero</owners>
     <authors>Jerrod Lankford</authors>
     <projectUrl>https://github.com/jerrod-lankford/google-voice-desktop-app</projectUrl>
-    <iconUrl>https://ghcdn.rawgit.org/superspacehero/au-packages/master/google-voice-desktop/icon.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/superspacehero/au-packages@master/google-voice-desktop/icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
 ## Why
@@ -23,26 +23,24 @@ Currently supports both OSX, Windows 10 and Ubuntu
 Questions? Ideas? Join us in discord https://discord.gg/3SSS6vkKET
 
 ## Themes
-New in 1.1 we now have different themes! You can change your theme by clicking on the customize menu on the left side of the page
+New in 1.1 we now have different themes! You can change your theme by clicking on the customize menu on the left side of the page ![Customize](https://cdn.jsdelivr.net/gh/jerrod-lankford/google-voice-desktop-app@master/screenshots/customize.png?raw=true)
 
-![Customize](https://ghcdn.rawgit.org/jerrod-lankford/google-voice-desktop-app/master/screenshots/customize.png?raw=true)
-
-Not only themes but also a system for themeing! If you want to create your own theme and contribute back to the project you can do that [here](https://github.com/jerrod-lankford/google-voice-desktop-app/blob/master/THEMES.md)
+Not only themes but also a system for themeing! If you want to create your own theme and contribute back to the project you can do that [here](https://github.com/jerrod-lankford/google-voice-desktop-app/blob@master/THEMES.md)
 
 ## Screenshots
-![Windows](https://ghcdn.rawgit.org/jerrod-lankford/google-voice-desktop-app/master/screenshots/windows.png)
+![Windows](https://cdn.jsdelivr.net/gh/jerrod-lankford/google-voice-desktop-app@master/screenshots/windows.png)
 
 Dracula Theme:
-![Dracula](https://ghcdn.rawgit.org/jerrod-lankford/google-voice-desktop-app/master/screenshots/dracula.png)
+![Dracula](https://cdn.jsdelivr.net/gh/jerrod-lankford/google-voice-desktop-app@master/screenshots/dracula.png)
 
 Solar Theme:
-![Solar](https://ghcdn.rawgit.org/jerrod-lankford/google-voice-desktop-app/master/screenshots/solar.png)
+![Solar](https://cdn.jsdelivr.net/gh/jerrod-lankford/google-voice-desktop-app@master/screenshots/solar.png)
 
 Minty Theme:
-![Minty](https://ghcdn.rawgit.org/jerrod-lankford/google-voice-desktop-app/master/screenshots/minty.png)
+![Minty](https://cdn.jsdelivr.net/gh/jerrod-lankford/google-voice-desktop-app@master/screenshots/minty.png)
 
 Cerulean Theme:
-![Cerulean](https://ghcdn.rawgit.org/jerrod-lankford/google-voice-desktop-app/master/screenshots/cerulean.png)
+![Cerulean](https://cdn.jsdelivr.net/gh/jerrod-lankford/google-voice-desktop-app@master/screenshots/cerulean.png)
 
 ## Attributions
 Customize Icon made by [dmitri13](https://www.flaticon.com/authors/dmitri13) from [www.flaticon.com](https://www.flaticon.com)
@@ -52,11 +50,11 @@ Dracula https://github.com/dracula/dracula-theme
 Solar / Minty / Cerulean https://bootswatch.com
     </description>
     <summary>An Electron shell wrapper around the Google Voice website</summary>
-    <releaseNotes>https://github.com/jerrod-lankford/google-voice-desktop-app/releases/tag/1.1.8</releaseNotes>
+    <releaseNotes>https://github.com/jerrod-lankford/google-voice-desktop-app/releases/latest</releaseNotes>
     <tags>google voice desktop</tags>
     <packageSourceUrl>https://github.com/superspacehero/au-packages/tree/master/google-voice-desktop</packageSourceUrl>
     <dependencies>
-		<dependency id="chocolatey-core.extension" version="1.0" />
+      <dependency id="chocolatey-core.extension" version="1.0" />
     </dependencies>
   </metadata>
   <files>
