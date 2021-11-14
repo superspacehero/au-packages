@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>google-voice-desktop</id>
-    <version>1.2.5</version>
+    <version>1.2.6</version>
     <title>Google Voice Desktop (Install)</title>
     <owners>Super Space Hero</owners>
     <authors>Jerrod Lankford</authors>

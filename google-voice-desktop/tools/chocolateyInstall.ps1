@@ -5,9 +5,9 @@ $packageArgs = @{
   fileType       = 'exe'
   softwareName   = 'Google Voice Desktop'
 
-  checksum       = '99d5a13781dd0a91d13c7cfc946c5ccc631a37fad685014b5ee1ec636d91f29b'
+  checksum       = '7cae3c77a86f0eaf9d8a99d99909e390844090153e9e09f9bf10e9ef1ea54d5e'
   checksumType   = 'sha256'
-  url            = 'https://github.com/jerrod-lankford/google-voice-desktop-app/releases/download/v1.2.5/Voice-Desktop-Setup-1.2.5-WindowsX64.exe'
+  url            = 'https://github.com/jerrod-lankford/google-voice-desktop-app/releases/download/v1.2.6/Voice-Desktop-Setup-1.2.6-WindowsX64.exe'
 
   silentArgs     = '/S'
   validExitCodes = @(0)
