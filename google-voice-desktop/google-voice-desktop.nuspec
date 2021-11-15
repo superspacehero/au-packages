@@ -17,37 +17,56 @@ I'm annoyed at the lack of desktop app for voice, like hangouts had.
 ## What does it do
 It just lets you keep voice open without a chrome browser. It will also check the dom for notifications and display a badge in the task bar and closing the app will send it to a tray instead of closing.
 
-## Support
-Currently supports both OSX, Windows 10 and Ubuntu
+## Supported Operating Systems
+Currently supports both OSX, Windows 10 and Linux.
 
 Questions? Ideas? Join us in discord https://discord.gg/3SSS6vkKET
 
-## Themes
-New in 1.1 we now have different themes! You can change your theme by clicking on the customize menu on the left side of the page ![Customize](https://cdn.jsdelivr.net/gh/jerrod-lankford/google-voice-desktop-app@master/screenshots/customize.png?raw=true)
+## Customize
+You can change settings, apply themes and other things in the customization page. Go to `Electron > Settings` on Mac in the global menu bar, or `File > Settings` on windows. If you've hidden the menu bar you can also access the settings from the system tray.
 
-Not only themes but also a system for themeing! If you want to create your own theme and contribute back to the project you can do that [here](https://github.com/jerrod-lankford/google-voice-desktop-app/blob@master/THEMES.md)
+**Windows Settings**
+
+![Windows Settings](https://cdn.jsdelivr.net/gh/jerrod-lankford/google-voice-desktop-app@master/screenshots/windowsSettings.png)
+
+**Mac Settings**
+
+![Mac Settings](https://cdn.jsdelivr.net/gh/jerrod-lankford/google-voice-desktop-app@master/screenshots/macSettings.png?raw=true)
+
+**System Tray Settings**
+
+![System Tray Settings](https://cdn.jsdelivr.net/gh/jerrod-lankford/google-voice-desktop-app@master/screenshots/systemTraySettings.png?raw=true)
+
+## Themes
+The latest version now supports custom themes, which can be set in the Settings dialog.
+
+Not only themes but also a system for themeing! If you want to create your own theme and contribute back to the project you can do that [here](https://github.com/jerrod-lankford/google-voice-desktop-app/blob/master/THEMES.md).
 
 ## Screenshots
-![Windows](https://cdn.jsdelivr.net/gh/jerrod-lankford/google-voice-desktop-app@master/screenshots/windows.png)
 
-Dracula Theme:
-![Dracula](https://cdn.jsdelivr.net/gh/jerrod-lankford/google-voice-desktop-app@master/screenshots/dracula.png)
+**Main window:**
 
-Solar Theme:
-![Solar](https://cdn.jsdelivr.net/gh/jerrod-lankford/google-voice-desktop-app@master/screenshots/solar.png)
+![Windows](https://cdn.jsdelivr.net/gh/jerrod-lankford/google-voice-desktop-app@master/screenshots/windows.png?raw=true)
 
-Minty Theme:
-![Minty](https://cdn.jsdelivr.net/gh/jerrod-lankford/google-voice-desktop-app@master/screenshots/minty.png)
+**Dracula theme:**
 
-Cerulean Theme:
-![Cerulean](https://cdn.jsdelivr.net/gh/jerrod-lankford/google-voice-desktop-app@master/screenshots/cerulean.png)
+![Dracula](https://cdn.jsdelivr.net/gh/jerrod-lankford/google-voice-desktop-app@master/screenshots/dracula.png?raw=true)
+
+**Solar theme:**
+
+![Solar](https://cdn.jsdelivr.net/gh/jerrod-lankford/google-voice-desktop-app@master/screenshots/solar.png?raw=true)
+
+**Minty theme:**
+
+![Minty](https://cdn.jsdelivr.net/gh/jerrod-lankford/google-voice-desktop-app@master/screenshots/minty.png?raw=true)
+
+**Cerulean theme:**
+
+![Cerulean](https://cdn.jsdelivr.net/gh/jerrod-lankford/google-voice-desktop-app@master/screenshots/cerulean.png?raw=true)
 
 ## Attributions
-Customize Icon made by [dmitri13](https://www.flaticon.com/authors/dmitri13) from [www.flaticon.com](https://www.flaticon.com)
-
-Dracula https://github.com/dracula/dracula-theme
-
-Solar / Minty / Cerulean https://bootswatch.com
+- Dracula: https://github.com/dracula/dracula-theme
+- Solar / Minty / Cerulean: https://bootswatch.com/
     </description>
     <summary>An Electron shell wrapper around the Google Voice website</summary>
     <releaseNotes>https://github.com/jerrod-lankford/google-voice-desktop-app/releases/latest</releaseNotes>
@@ -60,4 +79,4 @@ Solar / Minty / Cerulean https://bootswatch.com
   <files>
     <file src="tools\**" target="tools" />
   </files>
-</package>
+    </package>
